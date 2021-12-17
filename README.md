@@ -1,5 +1,5 @@
 
-![testes](https://github.com/dadosjusbr/coletor-MPTO/actions/workflows/parser-testes.yml/badge.svg)    
+![testes](https://github.com/dadosjusbr/coletor-MPTO/actions/workflows/docker-publish.yml/badge.svg)    
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dadosjusbr/coletor-MPTO)
 
 # Ministério Público do Estado do Tocantins
