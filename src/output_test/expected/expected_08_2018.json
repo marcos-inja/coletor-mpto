@@ -1,0 +1,101 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpto/8/2018/1",
+            "chaveColeta": "mpto/8/2018",
+            "nome": "BEATRIZ REGINA LIMA DE MELLO",
+            "matricula": "6991",
+            "funcao": "16° PROMOTOR DE JUSTIÇA DA CAPITAL",
+            "localTrabalho": "09ª PROCURADORIA DE JUSTIÇA, 16ª PROMOTORIA DE JUSTIÇA DA CAPITAL",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Remuneração do Cargo Efetivo",
+                        "valor": 28947.55
+                    },
+                    {
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Outras Verbas Remuneratórias Legais/Judiciais",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "13o. Salário",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Adicional de Férias",
+                        "valor": 2437.69,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -3351.82
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Imposto de Renda",
+                        "valor": -7115.01
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_jun_forward_2018",
+                        "item": "Retenção do Teto",
+                        "valor": -2497.62
+                    },
+                    {
+                        "categoria": "indenizacoes_jun_forward_2018",
+                        "item": "Auxílio alimentação",
+                        "valor": 2400.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jun_forward_2018",
+                        "item": "Auxílio Moradia",
+                        "valor": 4377.73,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jun_forward_2018",
+                        "item": "Feria Indenizadas",
+                        "valor": 28947.55,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jun_forward_2018",
+                        "item": "Licenca Prêmio Indenizada",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jun_forward_2018",
+                        "item": "Cumulações",
+                        "valor": 5789.51,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jun_forward_2018",
+                        "item": "Complemento",
+                        "valor": 1523.56,
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpto/1/2018/1",
+            "chaveColeta": "mpto/1/2018",
+            "nome": "RODRIGO ALVES BARCELLOS",
+            "matricula": "108810",
+            "funcao": "02º PROMOTOR DE JUSTIÇA DE MIRANORTE",
+            "localTrabalho": "02ª PROMOTORIA DE JUSTIÇA DE MIRANORTE, GRUPO DE ATUAÇAO ESPECIAL DE COMBATE AO CRIME ORGANIZADO",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Remuneração do Cargo Efetivo",
+                        "valor": 27500.17
+                    },
+                    {
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Outras Verbas Remuneratórias Legais/Judiciais",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "13o. Salário",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Adicional de Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -3184.23
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Imposto de Renda",
+                        "valor": -6059.14
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_jan_may_2018",
+                        "item": "Retenção do Teto"
+                    },
+                    {
+                        "categoria": "indenizacoes_jan_may_2018",
+                        "item": "Auxílio alimentação",
+                        "valor": 1200.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jan_may_2018",
+                        "item": "Auxílio Moradia",
+                        "valor": 4377.73,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jan_may_2018",
+                        "item": "Cumulações",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_jan_may_2018",
+                        "item": "Complemento",
+                        "valor": 1447.38,
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}

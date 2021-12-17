@@ -1,0 +1,107 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpto/1/2021/1",
+            "chaveColeta": "mpto/1/2021",
+            "nome": "CELSIMAR CUSTÓDIO SILVA",
+            "matricula": "108610",
+            "funcao": "04° PROMOTOR DE JUSTIÇA DE PORTO NACIONAL, ASSESSOR ESPECIAL DO PROCURADOR GERAL DE JUSTIÇA",
+            "localTrabalho": "04ª PROMOTORIA DE JUSTIÇA DE PORTO NACIONAL",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_2021",
+                        "item": "Remuneração do Cargo Efetivo",
+                        "valor": 33581.88
+                    },
+                    {
+                        "categoria": "contracheque_2021",
+                        "item": "Outras Verbas Remuneratórias Legais/Judiciais",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2021",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "valor": 5433.73,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2021",
+                        "item": "13o. Salário",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2021",
+                        "item": "Adicional de Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2021",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_2021",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -4716.48
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_2021",
+                        "item": "Imposto de Renda",
+                        "valor": -7987.39
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_2021",
+                        "item": "Retenção do Teto"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Auxílio alimentação",
+                        "valor": 3400.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Auxílio Moradia",
+                        "valor": 2500.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Feria indenizadas",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Licenca Prêmio Indenizada",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Aposentadoria Incentivada",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Verbas Rescisorias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Cumulações",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2021",
+                        "item": "Complemento",
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}
