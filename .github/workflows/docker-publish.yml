@@ -37,7 +37,11 @@ jobs:
       # Installs dependencies from requirements.txt
       - name: Install dependencies
         run: pip3 install -r requirements.txt
-
+        
+      # Install libreoffice
+      - name: Install libreoffice
+        run: apt-get install -y libreoffice
+        
       # Running all tests
       - name: Running tests
         run: python3 -m unittest discover -s ./src -p 'test_*.py'
