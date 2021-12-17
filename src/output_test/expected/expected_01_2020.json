@@ -1,0 +1,105 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpto/1/2020/1",
+            "chaveColeta": "mpto/1/2020",
+            "nome": "ABEL ANDRADE LEAL JUNIOR",
+            "matricula": "32201",
+            "funcao": "nan",
+            "localTrabalho": "01° PROMOTOR DE JUSTIÇA DE PORTO NACIONAL",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_2020",
+                        "item": "Remuneração do Cargo Efetivo",
+                        "valor": 33689.11
+                    },
+                    {
+                        "categoria": "contracheque_2020",
+                        "item": "Outras Verbas Remuneratórias Legais/Judiciais",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2020",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2020",
+                        "item": "13o. Salário",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2020",
+                        "item": "Adicional de Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_2020",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_2020",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -3705.8
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_2020",
+                        "item": "Imposto de Renda",
+                        "valor": -7376.05
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_2020",
+                        "item": "Retenção do Teto"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Auxílio alimentação",
+                        "valor": 3400.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Auxílio Moradia",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Feria indenizadas",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Licenca Prêmio Indenizada",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Aposentadoria Incentivada",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Verbas Rescisorias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Cumulações",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_2020",
+                        "item": "Complemento",
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}

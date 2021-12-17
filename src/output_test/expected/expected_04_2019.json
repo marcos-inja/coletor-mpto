@@ -1,0 +1,104 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpto/4/2019/1",
+            "chaveColeta": "mpto/4/2019",
+            "nome": "FRANCISCO RODRIGUES DE SOUZA FILHO",
+            "matricula": "16097",
+            "funcao": "17° PROMOTOR DE JUSTIÇA DA CAPITAL",
+            "localTrabalho": "17ª PROMOTORIA DE JUSTIÇA DA CAPITAL",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Remuneração do Cargo Efetivo",
+                        "valor": 33689.11
+                    },
+                    {
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Outras Verbas Remuneratórias Legais/Judiciais",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "13o. Salário",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Adicional de Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -3900.84
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Imposto de Renda",
+                        "valor": -7946.78
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_apr_may_2019",
+                        "item": "Retenção do Teto",
+                        "valor": -2906.72
+                    },
+                    {
+                        "categoria": "indenizacoes_apr_may_2019",
+                        "item": "Auxílio alimentação",
+                        "valor": 1200.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_apr_may_2019",
+                        "item": "Auxílio Moradia",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_apr_may_2019",
+                        "item": "Feria Indenizadas",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_apr_may_2019",
+                        "item": "Licenca Prêmio Indenizada",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_apr_may_2019",
+                        "item": "PROGRAMA DE APOSENTADORIA INCENTIVADA",
+                        "valor": 6737.82,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_apr_may_2019",
+                        "item": "Cumulações",
+                        "valor": 1773.11,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_apr_may_2019",
+                        "item": "Complemento",
+                        "valor": 9710.93,
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}
