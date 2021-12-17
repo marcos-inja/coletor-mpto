@@ -10,7 +10,7 @@ from headers_keys import (CONTRACHEQUE_JAN_MAY_2018,
                           INDENIZACOES_JUN_FORWARD_2018,
                           CONTRACHEQUE_APR_MAY_2019,
                           INDENIZACOES_APR_MAY_2019,
-                          INDENIZAÇÕES_JUN_TO_AUG_2019,
+                          INDENIZACOES_JUN_TO_AUG_2019,
                           CONTRACHEQUE_2020,
                           INDENIZACOES_2020,
                           CONTRACHEQUE_2021,
@@ -133,7 +133,7 @@ def parse(data, chave_coleta, month, year):
 
     elif year == "2019" and month in ["06", "07", "08"]:
         employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_2020, [0, 1, 3, 4]))
-        update_employees(data.indenizatorias, employees, INDENIZAÇÕES_JUN_TO_AUG_2019, 0)
+        update_employees(data.indenizatorias, employees, INDENIZACOES_JUN_TO_AUG_2019, 0)
     elif year == "2021":
         employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_2021, [0, 1, 3, 5]))
         update_employees(data.indenizatorias, employees, INDENIZACOES_2021, 0)

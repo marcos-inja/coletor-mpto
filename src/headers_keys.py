@@ -7,7 +7,7 @@ INDENIZACOES_JUN_FORWARD_2018 = "indenizacoes_jun_forward_2018"
 CONTRACHEQUE_APR_MAY_2019 = "contracheque_apr_may_2019"
 INDENIZACOES_APR_MAY_2019 = "indenizacoes_apr_may_2019"
 
-INDENIZAÇÕES_JUN_TO_AUG_2019 = "indenizações_jun_to_aug_2019"
+INDENIZACOES_JUN_TO_AUG_2019 = "indenizacoes_jun_to_aug_2019"
 
 CONTRACHEQUE_2020 = "contracheque_2020"
 INDENIZACOES_2020 = "indenizacoes_2020"
@@ -97,7 +97,7 @@ HEADERS = {
         "Cumulações": 11,
         "Complemento": 12,
     },
-    INDENIZAÇÕES_JUN_TO_AUG_2019:{
+    INDENIZACOES_JUN_TO_AUG_2019:{
         "Auxílio alimentação": 5,
         "Auxílio Moradia": 6,
         "Feria indenizadas": 7,
