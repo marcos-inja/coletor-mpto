@@ -65,9 +65,11 @@ def cria_remuneracao(row, categoria):
         remuneracao.valor = float(abs(number.format_value(row[value])))
 
         if (categoria == CONTRACHEQUE_JAN_MAY_2018 \
-            or categoria == CONTRACHEQUE_JUN_FORWARD_2018 \
-            or categoria == CONTRACHEQUE_APR_MAY_2019
-           ) and value in [11, 12, 13]:
+            or categoria == CONTRACHEQUE_JUN_FORWARD_2018) and value in [16, 17, 18]:
+            remuneracao.valor = remuneracao.valor * (-1)
+            remuneracao.natureza = Coleta.Remuneracao.Natureza.Value("D")
+
+        elif categoria == CONTRACHEQUE_APR_MAY_2019 and value in [14, 15, 16]:
             remuneracao.valor = remuneracao.valor * (-1)
             remuneracao.natureza = Coleta.Remuneracao.Natureza.Value("D")
 
@@ -81,14 +83,11 @@ def cria_remuneracao(row, categoria):
         else: 
             remuneracao.tipo_receita = Coleta.Remuneracao.TipoReceita.Value("O")
 
-        CONTRACHEQUE_JAN_MAY_2018
-        CONTRACHEQUE_JUN_FORWARD_2018
-        CONTRACHEQUE_APR_MAY_2019
         if (
             categoria == CONTRACHEQUE_JAN_MAY_2018 \
-            or categoria == CONTRACHEQUE_JUN_FORWARD_2018 \
-            or categoria == CONTRACHEQUE_APR_MAY_2019
-           ) and value in [4]:
+            or categoria == CONTRACHEQUE_JUN_FORWARD_2018) and value in [9]:
+            remuneracao.tipo_receita = Coleta.Remuneracao.TipoReceita.Value("B")
+        elif categoria == CONTRACHEQUE_APR_MAY_2019 and value in [7]:
             remuneracao.tipo_receita = Coleta.Remuneracao.TipoReceita.Value("B")
         elif (
             categoria == CONTRACHEQUE_2020 \
@@ -136,7 +135,7 @@ def parse(data, chave_coleta, month, year):
         employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_2020, [0, 1, 3, 4]))
         update_employees(data.indenizatorias, employees, INDENIZAÇÕES_JUN_TO_AUG_2019, 0)
     elif year == "2021":
-        employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_2021, [0, 1, 2, 3]))
+        employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_2021, [0, 1, 3, 5]))
         update_employees(data.indenizatorias, employees, INDENIZACOES_2021, 0)
     else:
         employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_2020, [0, 1, 2, 3]))
