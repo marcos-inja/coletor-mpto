@@ -1,5 +1,5 @@
 # set base image (host OS)
-FROM python:3.8-slim-buster
+FROM python:3.8
 
 RUN apt-get update \
  && apt-get install -y --no-install-recommends ca-certificates
@@ -10,7 +10,7 @@ WORKDIR /code
 # copy the dependencies file to the working directory
 COPY requirements.txt .
 # intall libreoffice
-RUN sudo apt update && sudo apt install libreoffice 
+RUN apt-get install -y libreoffice 
 
 # install dependencies
 RUN pip install --user -r requirements.txt
