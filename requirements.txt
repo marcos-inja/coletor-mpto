@@ -3,3 +3,5 @@ requests==2.25.1
 urllib3==1.26.4
 protoDadosjusbr>=0.7
 protobuf==3.18.0
+openpyxl==3.0.9 
+odfpy==1.4.1 
