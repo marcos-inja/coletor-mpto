@@ -9,6 +9,8 @@ WORKDIR /code
 
 # copy the dependencies file to the working directory
 COPY requirements.txt .
+# intall libreoffice
+RUN apt-get install libreoffice
 
 # install dependencies
 RUN pip install --user -r requirements.txt
